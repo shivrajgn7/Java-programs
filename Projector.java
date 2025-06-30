@@ -1,0 +1,90 @@
+class Projector {
+    static String brand;
+    static String modelName ;
+    static String resolution;
+    static String projectionType;
+    static String lampType ;
+    static String color ;
+    static String inputPorts ;
+    static String remoteIncluded;
+    static String warrantyPeriod;
+    static String countryOfOrigin ;
+    static String compatibleDevices ;
+    static int hdmiPortCount ;
+    static int usbPortCount ;
+    static int vgaPortCount ;
+    static int builtInSpeakersWatt ;
+    static int lampLifeHours ;
+    static int numberOfDisplayModes ;
+    static int projectionDistanceFeet ;
+    static int yearOfManufacture ;
+    static double priceInRupees ;
+
+    public static void main(String[] args) {
+
+        System.out.println("Projector Details");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model Name: " + modelName);
+        System.out.println("Resolution: " + resolution);
+        System.out.println("Projection Type: " + projectionType);
+        System.out.println("Lamp Type: " + lampType);
+        System.out.println("Color: " + color);
+        System.out.println("Input Ports: " + inputPorts);
+        System.out.println("Remote Included: " + remoteIncluded);
+        System.out.println("Warranty Period: " + warrantyPeriod);
+        System.out.println("Country of Origin: " + countryOfOrigin);
+        System.out.println("Compatible Devices: " + compatibleDevices);
+        System.out.println("HDMI Ports: " + hdmiPortCount);
+        System.out.println("USB Ports: " + usbPortCount);
+        System.out.println("VGA Ports: " + vgaPortCount);
+        System.out.println("Speaker Output (W): " + builtInSpeakersWatt);
+        System.out.println("Lamp Life (Hours): " + lampLifeHours);
+        System.out.println("Display Modes: " + numberOfDisplayModes);
+        System.out.println("Projection Distance: " + projectionDistanceFeet + " ft");
+        System.out.println("Year of Manufacture: " + yearOfManufacture);
+        System.out.println("Price: ₹" + priceInRupees);
+		
+		brand = "EPSON";
+		 modelName = "VPL-DX221";
+		 resolution = "XGA 1024x768";
+		projectionType = "3LCD";
+		 lampType = "High-Pressure Mercury Lamp";
+		color = "white";
+		inputPorts = "HDMI, VGA, USB";
+		remoteIncluded = "Yes";
+		 warrantyPeriod = "3 Years";
+		 countryOfOrigin = "india";
+		compatibleDevices = "Laptop, PC, TV Stick";
+		 hdmiPortCount = 1;
+		usbPortCount = 1;
+		vgaPortCount = 1;
+		builtInSpeakersWatt = 2;
+		lampLifeHours = 10000;
+		 numberOfDisplayModes = 4;
+		projectionDistanceFeet = 20;
+		 yearOfManufacture = 2024;
+		priceInRupees = 37999.99;
+		
+		System.out.println("Projector Details");
+        System.out.println("Brand: " + brand);
+        System.out.println("Model Name: " + modelName);
+        System.out.println("Resolution: " + resolution);
+        System.out.println("Projection Type: " + projectionType);
+        System.out.println("Lamp Type: " + lampType);
+        System.out.println("Color: " + color);
+        System.out.println("Input Ports: " + inputPorts);
+        System.out.println("Remote Included: " + remoteIncluded);
+        System.out.println("Warranty Period: " + warrantyPeriod);
+        System.out.println("Country of Origin: " + countryOfOrigin);
+        System.out.println("Compatible Devices: " + compatibleDevices);
+        System.out.println("HDMI Ports: " + hdmiPortCount);
+        System.out.println("USB Ports: " + usbPortCount);
+        System.out.println("VGA Ports: " + vgaPortCount);
+        System.out.println("Speaker Output (W): " + builtInSpeakersWatt);
+        System.out.println("Lamp Life (Hours): " + lampLifeHours);
+        System.out.println("Display Modes: " + numberOfDisplayModes);
+        System.out.println("Projection Distance: " + projectionDistanceFeet + " ft");
+        System.out.println("Year of Manufacture: " + yearOfManufacture);
+        System.out.println("Price: ₹" + priceInRupees);
+    }
+}
