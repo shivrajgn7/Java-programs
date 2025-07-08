@@ -1,9 +1,9 @@
 class Hospital{
-
-public static void main(String[]doc){
-System.out.println("Main Started");
-Doctors.doctors();
-System.out.println("Main ended");}
-
+	public static void add(String patientName,int age,String email,long phNo,String disease){
+	System.out.println("Started with check up");
+	Doctor.check(patientName,age,disease);
+	System.out.println("Check up is done");
+	
+	}
 
 }
