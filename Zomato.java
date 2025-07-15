@@ -150,28 +150,36 @@ class Zomato{
 			}
 			else if(fName=="Dosa"){
 			price=89.67*quantity;
+			return price;
 			
 			}
 			else if(fName=="Shavarma"){
 			price=90.89*quantity;
+			return price;
 			}
 			else if(fName=="VegMomo"){
 			price=76.63*quantity;
+			return price;
 			}
 			else if(fName=="Idli"){
 			price=78.87*quantity;
+			return price;
 			}
 			else if(fName=="Paratha"){
 			price=40.00*quantity;
+			return price;
 			}
 			else if(fName=="IceCream"){
 			price=340.87*quantity;
+			return price;
 			}
 			else if(fName=="papad"){
 			price=98.78*quantity;
+			return price;
 			}
 			else if(fName=="Rice"){
 			price=40*quantity;
+			return price;
 			}
 			else if(fName=="Puri"){
 			price=68.45*quantity;
