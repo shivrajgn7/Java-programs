@@ -1,18 +1,24 @@
-class Politician{
+class Pol{
+	
+	
+	
+	Pol(){
+		System.out.println("Constructor is invoked");
+		
+	}
+	Pol(int politicianId,String name, String party,String position,int age){
+		System.out.println("Politician parameter constuctor is invoked");
+		this.politicianId=politicianId;
+		
+	}
+	
 	int politicianId;
 	String name;
 	String party;
 	String position;
 	int age;
-	Politician(int politicianId,String name, String party,String position,int age){
-		this.politicianId=politicianId;
-		this.name=name;
-		this.party=party;
-		this.position=position;
-		this.age=age;
-		
-		
-	}
+	
+	
 	
 	public void getInfo(){
 		System.out.println("the politician id is " +politicianId);
