@@ -1,17 +1,26 @@
 class LibraryRunner{
 
-	public static void main(String[]study){
+	public static void main(String[] read){
 	
-	String books[]={"To Kill a Mockingbird "," 1984 "," The Great Gatsby "," Pride and Prejudice "," The Catcher in the Rye  "," The Alchemist "," Harry Potter and the Sorcerer's Stone "," The Hobbit "," The Kite Runner "," Atomic Habits "," The Da Vinci Code "," The Book Thief"};
+	Book book=new Book();
+	int bookId=87;
+	String bookName="Deep learn";
+	String bookSize="medium";
+	book.bookId=bookId;
+	book.bookName=bookName;
+	book.bookSize=bookSize;
 	
-	Library learn=new Library(books,57,"Banglore","Karnataka");
-	learn.book=books;
-	System.out.println(+learn.libraryId+learn.city+learn.state);
+	Shelf shelf=new Shelf();
+	int noShelf=87;
+	shelf.noShelf=noShelf;
+	shelf.book=book;
 	
-	learn.getLibrary();
-	
+	Library library=new Library();
+	int libraryId=32;
+	String libraryName="Central Library";
+	library.libraryId=libraryId;
+	library.libraryName=libraryName;
+	library.shelf=shelf;
+	library.getLibrary();
 	}
-
-
-
 }

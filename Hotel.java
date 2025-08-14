@@ -1,22 +1,13 @@
 class Hotel{
-	String menu[];
-	int id;
 	String hotelName;
-	String area;
-	String city;
+	String hotelOwner;
+	Floor floor;
 	
-	Hotel(String  menu[],int id,String hotelName,String area,String city){
-		
-		this.menu=menu;
-		this.id=id;
-		this. hotelName=hotelName;
-		this.area=area;
-		this.city=city;
-		
-		
+	void getHotel(){
+		this.floor.getFloor();
+				System.out.println("Hotel details : ");
+
+		System.out.println("Hotel Name: "+hotelName);
+		System.out.println("Hotel owner: "+hotelOwner);
 	}
-	
-	
-
-
 }
