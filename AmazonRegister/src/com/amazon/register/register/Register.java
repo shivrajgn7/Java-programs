@@ -1,7 +1,7 @@
 package com.amazon.register.register;
 import com.amazon.register.validation.Validation;
 
-public class Register {
+public class RegisterDto {
     private String firstName;
     private String secName;
     private String password;
