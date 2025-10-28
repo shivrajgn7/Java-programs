@@ -1,6 +1,6 @@
 package com.android.pol;
 
-public class Police {
+public class PoliceDto {
     private int policeId;
     private String place;
     private boolean isStation;
